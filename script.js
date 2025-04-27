@@ -7,7 +7,7 @@
 
     let grandTotal = 0;
 
-    addButton.addEventListener('click', () => {
+    addButton.addEventListener('click', () => { 
       const name = nameInput.value.trim();
       const price = parseFloat(priceInput.value);
 
