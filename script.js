@@ -20,11 +20,11 @@
       const newRow = document.createElement('tr');
 
       const nameTd = document.createElement('td');
-      nameTd.setAttribute('data-ns-test', 'item-name');
+    //  nameTd.setAttribute('data-ns-test', 'item-name');
       nameTd.innerText = name;
 
       const priceTd = document.createElement('td');
-      priceTd.setAttribute('data-ns-test', 'item-price');
+    //  priceTd.setAttribute('data-ns-test', 'item-price');
       priceTd.innerText = price;
 
       newRow.appendChild(nameTd);
